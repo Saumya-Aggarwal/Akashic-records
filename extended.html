@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Akashic Records</title>
+<link href='./style.css' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    
+    <!-- Project name -->
+    <h1 class="project-name">The Akashic Records</h1>
+    <div class="separatorr"></div>
+
+    <!-- Navigation bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">Report Issue</a>
+        <a href="extended.html">Fill your details</a>
+        <a href="#">Try AI</a>
+    </nav>
+
+   
+        </head>
+        <body>
+            <!-- Form to capture health information -->
+            <div class="form-container">
+                <form>
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <div class="separator"></div>
+        
+                    <label for="height">Height (in meters):</label>
+                    <input type="number" id="height" name="height" required><br>
+                    <div class="separator"></div>
+        
+                    <label for="weight">Weight:</label>
+                    <input type="number" id="weight" name="weight" required><br>
+                    <div class="separator"></div>
+        
+                    <label style="color: #343a40;">Vaccinations:</label><br>
+                    <input type="checkbox" id="hepatitisA" name="vaccinations" value="Hepatitis A">
+                    <label for="hepatitisA">Hepatitis A</label>
+                    <input type="checkbox" id="hepatitisB" name="vaccinations" value="Hepatitis B">
+                    <label for="hepatitisB">Hepatitis B</label>
+                    <input type="checkbox" id="polio" name="vaccinations" value="Polio">
+                    <label for="polio">Polio</label>
+                    <input type="checkbox" id="measles" name="vaccinations" value="Measles">
+                    <label for="measles">Measles</label>
+                    <input type="checkbox" id="rabies" name="vaccinations" value="Rabies">
+                    <label for="rabies">Rabies</label>
+                    <input type="checkbox" id="chickenpox" name="vaccinations" value="Chickenpox">
+                    <label for="chickenpox">Chickenpox</label><br>
+                    <div class="separator"></div>
+                    <div id = "allergies"></div>
+                    <label style="color: #343a40;">Allergies:</label><br>
+                    <input type="checkbox" id="penicillin" name="allergies" value="Penicillin">
+                    <label for="penicillin">Penicillin Allergy</label>
+                    <input type="checkbox" id="aspirin" name="allergies" value="Aspirin">
+                    <label for="aspirin">Aspirin Allergy</label>
+                    <input type="checkbox" id="legume" name="allergies" value="Legume">
+                    <label for="legume">Legume Allergy</label>
+                    <input type="checkbox" id="milk" name="allergies" value="Milk">
+                    <label for="milk">Lactose Allergy</label>
+
+                    <div class="separator"></div>
+        
+                    <label style="color: #343a40;">Family History:</label><br>
+                    <input type="checkbox" id="diabetes" name="familyHistory" value="Diabetes">
+                    <label for="diabetes">Diabetes</label>
+                    <input type="checkbox" id="highBloodPressure" name="familyHistory" value="High Blood Pressure">
+                    <label for="highBloodPressure">High Blood Pressure</label>
+                    <input type="checkbox" id="heartAbnormalities" name="familyHistory" value="Heart Abnormalities">
+                    <label for="heartAbnormalities">Heart Abnormalities</label><br>
+                    <input type="checkbox" id="geneticdisorder" name="familyHistory" value="Genetic Disorde">
+                    <label for="heartAbnormalities">Genetic Disorder</label><br>
+        
+                    <label id="pregnancyLabel" style="display: none; color: #343a40;">Pregnancy:</label>
+                    <input type="radio" id="pregnancyYes" name="pregnancy" value="Yes" style="display: none;">
+                    <label for="pregnancyYes" style="display: none;">Yes</label>
+                    <input type="radio" id="pregnancyNo" name="pregnancy" value="No" style="display: none;">
+                    <label for="pregnancyNo" style="display: none;">No</label>
+        
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 The Akashic Records. All rights reserved.</p>
+        <p>Contact us: contact@akashicrecords.com</p>
+        <p>Follow us on <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Instagram</a></p>
+    </footer>
+</body>
+</html>

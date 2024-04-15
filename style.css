@@ -1,0 +1,143 @@
+    /* Resetting default margin and padding */
+    body, h1, h2, h3, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+    /* Setting light peach as background color */
+    body {
+        background-image: linear-gradient(246deg, rgba(234, 234, 234, 0.04) 0%, rgba(234, 234, 234, 0.04) 33.3%,rgba(69, 69, 69, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 66.6%,rgba(189, 189, 189, 0.04) 66.6%, rgba(189, 189, 189, 0.04) 99.89999999999999%),linear-gradient(81deg, rgba(126, 126, 126, 0.05) 0%, rgba(126, 126, 126, 0.05) 33.3%,rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%,rgba(74, 74, 74, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 99.89999999999999%),linear-gradient(14deg, rgba(86,78,78, 0.08) 0%, rgba(86,78,78, 0.08) 33.3%,rgba(156, 156, 156, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 66.6%,rgba(199, 199, 199, 0.08) 66.6%, rgba(199, 199, 199, 0.08) 99.89999999999999%),linear-gradient(323deg, rgba(82, 82, 82, 0.06) 0%, rgba(82, 82, 82, 0.06) 33.3%,rgba(179, 179, 179, 0.06) 33.3%, rgba(179, 179, 179, 0.06) 66.6%,rgba(212, 212, 212, 0.06) 66.6%, rgba(212, 212, 212, 0.06) 99.89999999999999%),linear-gradient(32deg, rgba(70, 70, 70, 0.02) 0%, rgba(70, 70, 70, 0.02) 33.3%,rgba(166, 166, 166, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 66.6%,rgba(53, 53, 53, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 99.89999999999999%),linear-gradient(38deg, rgba(129, 129, 129, 0.09) 0%, rgba(129, 129, 129, 0.09) 33.3%,rgba(38, 38, 38, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 66.6%,rgba(153, 153, 153, 0.09) 66.6%, rgba(153, 153, 153, 0.09) 99.89999999999999%),linear-gradient(63deg, rgba(51, 51, 51, 0.02) 0%, rgba(51, 51, 51, 0.02) 33.3%,rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%,rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.89999999999999%),linear-gradient(227deg, rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%,rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%,rgba(85, 85, 85, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 99.89999999999999%),linear-gradient(103deg, rgba(247, 247, 247, 0.07) 0%, rgba(247, 247, 247, 0.07) 33.3%,rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%,rgba(208, 208, 208, 0.07) 66.6%, rgba(208, 208, 208, 0.07) 99%),linear-gradient(0deg, rgb(255,242,177),rgb(252,148,55));
+        font-family: Arial, sans-serif;
+    }
+    /* Styling project name */
+    .project-name {
+        color: #343a40; /* Dark blue color */
+        font-size: 67px; /* Larger font size */
+        margin: 10px 20px 0; /* Adding margin */
+        text-align: center; /* Center aligning */
+    }
+    /* Styling navigation bar */
+    nav {
+        padding: 25px 35xpx;
+        text-align: center; /* Center aligning */
+    }
+    nav a {
+        color: #343a40; /* Dark blue color */
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 20px; /* Adding curve */
+    }
+    nav a:hover {
+        background-color: #343a40; /* Dark blue color */
+        color: white; /* White color */
+    }
+    /* Styling form container */
+    .form-container {
+        margin: 100px auto; /* Center aligning */
+        width: 90%; /* Setting width */
+        max-width: 600px; /* Max width */
+        background-color: rgb(255, 235, 209);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    /* Styling form inputs */
+    input[type="text"], input[type="number"] {
+        width: calc(100% - 22px); /* Adjusting width */
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    /* Styling form submit button */
+    input[type="submit"] {
+        background-color: #343a40;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #1e2124;
+    }
+    /* Styling content container */
+    .content-container, .vision-container {
+        background-color: white;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow-y: auto; /* Adding scroll bar */
+        clear: both; /* Clear floats */
+        text-align: left; /* Left aligning */
+        width: 100%; /* Setting width */
+    }
+    /* Styling content */
+    .content h2, .vision h2 {
+        color: #343a40;
+        margin-bottom: 20px;
+        font-size: 34px; /* Double font size */
+    }
+    .content p, .vision p {
+        color: #343a40;
+        font-size: 20px; /* Increased font size */
+        margin-bottom: 20px;
+    }
+    /* Styling separator line */
+    .separator {
+        border-top: 2px solid #343a40; /* Dark blue color */
+        margin: 20px auto; /* Center aligning */
+        width: 90%; /* Setting width */
+        max-width: 600px; /* Max width */
+    }
+    /* Styling footer */
+    footer {
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        width: 100%;
+        clear: both; /* Clear floats */
+    }
+
+    /* Styling image column */
+    .image-column {
+        width: 100%; /* Setting width */
+        text-align: center; /* Center aligning */
+    }
+
+    .image-column img {
+        max-width: 100%;
+        height: auto;
+    }
+    /* content about us */
+    #content{
+        display: flex;
+        
+    }
+
+    /* Media query for smaller screens */
+    @media screen and (max-width: 768px) {
+        .content-container, .vision-container {
+            width: 90%; /* Adjusted width */
+            margin: 20px auto; /* Center aligning */
+        }
+        .separator {
+            width: 90%; /* Adjusted width */
+            max-width: none; /* Remove max-width */
+        }
+        .form-container {
+            width: 90%; /* Adjusted width */
+            max-width: none; /* Remove max-width */
+            margin-top: 50px; /* Adjusted margin */
+        }
+        .project-name {
+            font-size: 40px; /* Adjusted font size */
+        }
+        .image-column {
+            width: 100%; /* Adjusted width */
+            float: none; /* Remove float */
+        }
+    }
+
